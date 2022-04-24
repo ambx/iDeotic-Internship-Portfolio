@@ -17,7 +17,7 @@ export default function USP(){
                 </div>
                 <div className={styles.gridItem}>
                     <i id="uspIcon" class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <h2>SEO-Optimizied</h2>
+                    <h2>SEO-Friendly</h2>
                     <p>Nobody wants their jargon with a side of bullshit. Nobody</p>
                 </div>
                 <div className={styles.gridItem}>

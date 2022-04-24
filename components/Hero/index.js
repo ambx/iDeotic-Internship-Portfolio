@@ -15,6 +15,7 @@ export default function Hero(){
                 <br />
             <button className={styles.button}>Let's connect</button>
             </div>
+            
         </div>
     )
 }

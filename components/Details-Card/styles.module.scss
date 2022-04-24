@@ -2,13 +2,14 @@
 @import "../../styles/mixins";
 
 .testimonialCard{
-    
+    background-color: $accent2;
+    color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px;
     border-radius: 5px;
     .byline{
         font-style: italic;
-        color: grey;
+        color: $accent1;
         font-size: 0.75em;
     }
 }
