@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from "./styles.module.scss"
-import headshot from '../../public/images/headshot.png'
+import headshot from '../../public/images/avatars/about.png'
 
 export default function About(){
     return(
@@ -23,7 +23,7 @@ export default function About(){
                 <Image className={styles.headshot}
                     src={headshot}
                     height="1000px"
-                    width="700px"
+                    width="1000px"
                     alt="Picture of the author"
                 />
                 </div>

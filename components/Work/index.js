@@ -13,9 +13,9 @@ export default function Work(){
                 I create content marketing strategies for B2B companies that know the importance of an education-first approach to acquiring and retaining customers. My inbound-first focus ensures that companies reach their target audience on the right channel, with the right message and at the right time.
                 </div><br />
                 <div className={styles.gridContainer}>
-                    <DetailCard title="Content Marketing" quote="Words, but not wordy. I’ll help you create a content marketing strategy to capture attention, educate your target market and fuel your business growth organically." />
-                    <DetailCard title="Content and Copy Writing" quote="Words, but not wordy. I’ll help you create a content marketing strategy to capture attention, educate your target market and fuel your business growth organically." />
-                    <DetailCard title="Technical Writing" quote="Words, but not wordy. I’ll help you create a content marketing strategy to capture attention, educate your target market and fuel your business growth organically." />               
+                    <DetailCard title="Content Marketing" quote="Words, but not wordy. I’ll help you create a content marketing strategy to capture attention, educate your target market and fuel your business growth organically." icon="fa-solid fa-chart-simple" />
+                    <DetailCard title="Content and Copy Writing" quote="Words, but not wordy. I’ll help you create a content marketing strategy to capture attention, educate your target market and fuel your business growth organically." icon="fa-solid fa-file-pen"/>
+                    <DetailCard title="Technical Writing" quote="Words, but not wordy. I’ll help you create a content marketing strategy to capture attention, educate your target market and fuel your business growth organically." icon="fa-solid fa-file-code"/>               
                 </div>
                 </div></div>
     )
