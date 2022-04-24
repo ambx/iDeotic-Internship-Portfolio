@@ -16,9 +16,9 @@
     }
    
     @include respond-below(sm){
-        main{
-            margin: 0 2vw;
-        }
+        
+            margin: 0 4vw;
+        
         
     }
 }
