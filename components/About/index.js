@@ -5,7 +5,7 @@ import headshot from '../../public/images/avatars/about.png'
 
 export default function About(){
     return(
-        <div className={styles.container}>
+        <div id="about"className={styles.container}>
             <br />
             <h1 className={styles.title}>About me</h1>
             <hr className={styles.titleUnderline} />

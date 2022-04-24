@@ -4,7 +4,7 @@ import ContactForm from '../Contact-Form'
 
 export default function Contact(){
     return(
-        <div className={styles.container}>
+        <div id="contact" className={styles.container}>
             <br />
             <h1 className={styles.title}>Let's connect</h1>
             <hr className={styles.titleUnderline} />
