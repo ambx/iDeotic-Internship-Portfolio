@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Contensify from '../../public/images/clients/contensify.png'
 import XgenTech from '../../public/images/clients/xgentech.png'
 import Dresma from '../../public/images/clients/dresma.png'
-
+import DSI from '../../public/images/clients/dsi.jpeg'
 
 export default function Clients() {
     return (
@@ -18,21 +18,7 @@ export default function Clients() {
                 </div>
                 <br /><br />
                 <div className={styles.gridContainer}>
-                    <div className={styles.gridItem}>
-                        <Image className={styles.headshot}
-                            src={XgenTech}
-                            height="120px"
-                            width="120px"
-                            alt="Picture of the author" />
-                    </div>
-                    <div className={styles.gridItem}>
-                        <Image className={styles.headshot}
-                            src={Dresma}
-                            height="120px"
-                            width="120px"
-                            alt="Picture of the author" />
-                    </div>
-                    <div className={styles.gridItem}>
+                <div className={styles.gridItem}>
                         <Image className={styles.headshot}
                             src={Contensify}
                             height="120px"
@@ -55,7 +41,7 @@ export default function Clients() {
                     </div>
                     <div className={styles.gridItem}>
                         <Image className={styles.headshot}
-                            src={Contensify}
+                            src={DSI}
                             height="120px"
                             width="120px"
                             alt="Picture of the author"/>
