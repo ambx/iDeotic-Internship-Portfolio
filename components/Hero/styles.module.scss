@@ -28,7 +28,8 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 4em;
         @include respond-below(sm){
-            font-size: 2em;
+            font-size: 3em;
+            line-height: 1.2em;
         }
     }
     .textAccent{

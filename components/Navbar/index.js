@@ -10,7 +10,7 @@ export default function navbar(props) {
         </Link> 
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="https://almost.hibafathima.com/">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         </div>
