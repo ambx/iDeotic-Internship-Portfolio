@@ -1,0 +1,13 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.testimonialCard{
+    border: solid 1px $accent1;
+    padding: 20px;
+    border-radius: 5px;
+    .byline{
+        font-style: italic;
+        color: grey;
+        font-size: 0.75em;
+    }
+}

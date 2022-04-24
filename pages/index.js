@@ -5,6 +5,7 @@ import About from '../components/About/index'
 import Work from '../components/Work'
 import Clients from '../components/Clients'
 import Testimonials from '../components/Testimonials'
+import Contact from '../components/Contact'
 import styles from '../styles/index.module.scss'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Work />
       <Clients />
       <Testimonials />
+      <Contact />
     </div>
   )
 }

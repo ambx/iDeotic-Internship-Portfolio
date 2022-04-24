@@ -4,19 +4,36 @@
 .container{
     background-color: $accent2;
     margin: -10px;
+    padding-bottom: 20px;
 }
 .main{
     margin: 0 8vw;
+    @include respond-below(sm){
+        margin: 0 2vw;
+    }
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: space-around;
     align-items: center;
     font-size: 1em;
-    @include respond-below(sm){
-        main{
-            margin: 0 2vw;
+    .heroSubText{
+        width: 70%;
+        @include respond-below(sm){
+            width: 100%;
         }
+    }
+    h1{
+        color: $accent1;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4em;
+        @include respond-below(sm){
+            font-size: 2em;
+        }
+    }
+    .textAccent{
+        color: $accent1;
+        font-weight: 700;
     }
 }
 .button{
@@ -36,3 +53,9 @@
     border: solid 1px $accent1;
     color: $accent1;
   }
+
+  .titleUnderline{
+    margin-left: 0;
+    width: 100px;
+    border-color: $accent1;
+}

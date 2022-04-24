@@ -3,6 +3,7 @@
 
 .container{
     margin: 0 8vw;
+    padding-bottom: 20px;
     @include respond-below(sm){
         margin: 0 2vw;
     }
@@ -13,7 +14,7 @@
     gap: 40px;
     @include respond-below(md){
         grid-template-columns: auto;
-        gap: 1px;
+        gap: 20px;
     }
 }
 .titleUnderline{

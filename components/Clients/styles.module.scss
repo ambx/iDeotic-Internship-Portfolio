@@ -3,19 +3,24 @@
 
 .container{
     margin: 0 8vw;
+    padding-bottom: 20px;
     @include respond-below(sm){
         margin: 0 2vw;
     }
 }
 .gridContainer{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: center;
+    flex-basis: 25%;
     gap: 40px;
     @include respond-below(md){
+        display: grid;
         grid-template-columns: auto;
         gap: 1px;
     }
 }
+
+
 .titleUnderline{
     margin-left: 0;
     width: 100px;

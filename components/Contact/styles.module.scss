@@ -1,0 +1,24 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.container{
+    margin: 0 8vw;
+    @include respond-below(sm){
+        margin: 0 2vw;
+    }
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 50px;
+    @include respond-below(sm){
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+}
+
+.titleUnderline{
+    margin-left: 0;
+    width: 100px;
+    border-color: $accent1;
+}
