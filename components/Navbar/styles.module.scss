@@ -16,7 +16,7 @@
     }
    
     @include respond-below(sm){
-        
+        display: none;
             margin: 0 4vw;
         
         
