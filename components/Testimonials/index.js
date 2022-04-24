@@ -1,15 +1,15 @@
 import Link from 'next/link'
 import styles from "./styles.module.scss"
 
-export default function Work(){
+export default function Testimonials(){
     return(
         <div className={styles.container}>
             <br />
-            <h1 className={styles.title}>What I do</h1>
+            <h1 className={styles.title}>What those I work with think</h1>
             <hr className={styles.titleUnderline} />
             <div className={styles.box}>
                 <div>
-                I create content marketing strategies for B2B companies that know the importance of an education-first approach to acquiring and retaining customers. My inbound-first focus ensures that companies reach their target audience on the right channel, with the right message and at the right time.
+                B2B buyers consume an average of 13 pieces of content before making a purchase decision. So I worked with these teams to build a B2B content marketing strategy that evolves with their target market needs, with a focus on organic growth.
                 </div>
                 <div className={styles.gridContainer}>
                     <div className={styles.gridItem}>
@@ -25,6 +25,7 @@ export default function Work(){
                         <p>Getting to the forefront needs a push and a strategy to ensure you don’t end up bankrupt. I’ll help you plan your content advertising campaigns to max out your ROI! </p>
                     </div>
                 </div>
+
                 </div></div>
     )
 }

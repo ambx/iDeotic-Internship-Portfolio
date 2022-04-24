@@ -8,6 +8,7 @@ export default function About(){
         <div className={styles.container}>
             <br />
             <h1 className={styles.title}>About me</h1>
+            <hr className={styles.titleUnderline} />
             <div className={styles.box}>
                 <div>
                     In the six fast-paced years of working (and adulting) in the marketing industry, I’ve worked with B2B SaaS startups across various domains.
