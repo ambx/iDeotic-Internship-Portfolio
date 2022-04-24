@@ -1,0 +1,26 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.container{
+    margin: 0 8vw;
+    .title{
+        font-weight: 500px;
+    }
+    @include respond-below(sm){
+        margin: 0 2vw;
+    }
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: justify;
+    gap: 100px;
+    @include respond-below(sm){
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+.headshot{
+    width: 300px;
+}

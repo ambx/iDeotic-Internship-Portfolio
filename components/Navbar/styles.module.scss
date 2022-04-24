@@ -1,14 +1,34 @@
 @import "../../styles/colors";
 @import "../../styles/mixins";
 
-nav.flexbox {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+.container {
+    margin: -10px;
+    background-color: $accent2;
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8vw;
+    
+    .home{
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+   
+    @include respond-below(sm){
+        main{
+            margin: 0 2vw;
+        }
+        
+    }
+}
   ul {        
       display: flex;
       align-items: center;
+      @include respond-below(sm){
+          display: none;
+      }
   }
 
   ul li {
