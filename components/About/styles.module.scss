@@ -35,3 +35,21 @@
     border: none;
     box-shadow: none;
 }
+.viewResume{
+    margin: 0;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $accent2;
+    border: solid 1px $accent2;
+    color: $accent1;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.viewResume:hover{
+    cursor: pointer;
+    background-color: white;
+    border: solid 1px $accent2;
+    color: $accent2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

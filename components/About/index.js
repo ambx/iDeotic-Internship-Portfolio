@@ -18,6 +18,8 @@ export default function About(){
                     I’ve led a high-performing team of digital marketers, community managers and content creators to work on B2B content marketing strategies designed to build an audience from ground up.
                     <br /><br />
                     My key strengths lie in marketing strategy, content management, content writing, research, social media and dropping sarcastic comments. 
+                    <br /><br />
+                    
                 </div>
                 <div>
                 <Image className={styles.headshot}
@@ -31,3 +33,7 @@ export default function About(){
         </div>
     )
 }
+
+//function openFile(){
+//    open('../../public/Hiba-Resume.pdf')
+//}
