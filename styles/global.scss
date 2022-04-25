@@ -1,11 +1,7 @@
-@font-face {
-  font-family: 'Montserrat';
-  src: url("../src/fonts/Montserrat-VariableFont_wght.ttf") format("ttf");
-}
 
 html,
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   padding: 0;
   background-color: white;
   font-size: 1em;
@@ -14,11 +10,7 @@ body {
 }
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat';
-}
-
-h1, h2, h3, h4, p, span, ul, ol, li{
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
 }
 
 li{
@@ -37,7 +29,7 @@ a:hover {
     }
 }
 button{
-  font-family:'Montserrat';
+  font-family:"Montserrat", sans-serif;
 }
 
 #uspIcon{
