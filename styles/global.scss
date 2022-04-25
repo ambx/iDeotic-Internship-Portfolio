@@ -1,13 +1,11 @@
 @font-face {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   src: url("../src/fonts/Montserrat-VariableFont_wght.ttf") format("ttf");
-  font-weight: bold;
-  font-display: swap;
 }
 
 html,
 body {
-  font-family: 'Montserrat-VariableFont_wght';
+  font-family: 'Montserrat';
   padding: 0;
   background-color: white;
   font-size: 1em;
